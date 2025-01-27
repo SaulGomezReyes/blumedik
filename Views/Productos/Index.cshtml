@@ -1,0 +1,23 @@
+﻿@{
+
+    @model wablumedik.Models.Producto
+
+    
+        <div class="display-label">
+        @Html.Label("nombre: ")
+            @Html.DisplayFor(model => Model.Nombre)
+        </div>
+        <div class="display-field">
+        @Html.Label("descripcion: ")
+        @Html.DisplayFor(model => Model.Descripcion)
+        </div>
+        <div class="display-label">
+        @Html.Label("id: ")
+        @Html.DisplayFor(model => Model.Id)
+        </div>
+        <div class="display-field">
+        @Html.Label("precio: ")
+        @Html.DisplayFor(model => Model.Precio)
+        </div>
+    
+}
